@@ -63,5 +63,5 @@ Pagkat ikaw ang hinaharap na nais kong kasama.`
 
 function displayPoem(poemNumber) 
 {
-    document.getElementById('poemText').innerText = poems[poemNumber];
+    document.getElementById('poemText').innerText = poems[poemNumber - 1];
 }
