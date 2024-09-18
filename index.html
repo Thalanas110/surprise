@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise!</title>
+    <link rel="stylesheet" href="decoratives.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="custom-dropdown">
+        <button class="custom-dropdown-btn">Choose here</button>
+        <div class="custom-dropdown-content">
+            <a href="#" onclick="displayPoem(1)">Poem 1</a>
+            <a href="#" onclick="displayPoem(2)">Poem 2</a>
+            <a href="#" onclick="displayPoem(3)">Poem 3</a>
+        </div>
+    </div>
+
+    <div class="poem-display" id="poemDisplay">
+        <p id="poemText"></p>
+    </div>
+</div>
+
+<script src="tulastorage.js"></script>
+<script src="tulaAnimation.js"></script>
+</body>
+</html>
